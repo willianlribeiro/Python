@@ -1,0 +1,6 @@
+nome = str(input('Coloque aqui seu nome:'))
+print('Seu nome em letras maiúsculas ficaria : {}'.format(nome.upper()))
+print('Seu nome em letras minusculas ficaria : {}'.format(nome.lower()))
+nomesep = nome.split()
+nomejuntin = ''.join(nomesep)
+print('Seu nome possui {} caracteres'.format(len(nomejuntin)))

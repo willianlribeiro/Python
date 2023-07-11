@@ -1,0 +1,5 @@
+colocacao = ('Botafogo', 'palmeiras', 'flamengo', 'Atletico-MG', 'Fluminense', 'Gremio', 'Atletico-PR', 'são paulo', 'Cruzeiro', 'Internacional', 'Fortaleza', 'Bargantiino', 'Santos', 'Cuiaba', 'Bahia', 'corinthians', 'Goiais', 'América', 'Vasco', 'Coritiba')
+print(f'Os 5 primeiros colocados são {colocacao[0:5]}')
+print(f'Os últimos 5 colocados são {colocacao[-4:]}')
+print(f'Em ordem alfabética, a sequência é: {sorted(colocacao)}')
+print(f'O Coritiba, encontra-se na posição {colocacao.index("Coritiba")+1}')
